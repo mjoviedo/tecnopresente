@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 /* RESALTADO DE TEXTO */
 
 .resaltado {
-    background-color: #fafa0077;
+    background-color: #D1E1A9;
     padding: 0.2em;
   }
 
@@ -33,14 +33,14 @@ a  {
 }
 
 .verde  {
-  color: #5f9877;
+  color: #D1E1A9;
 }
 .btn-verde  {
-  background-color: #5f9877;
+  background-color: #D1E1A9;
   color: white;
 }
 .btn-verde:hover  {
-  background-color: #528065;
+  background-color: #94a171;
   color: white;
 }
 
@@ -97,4 +97,10 @@ a  {
   100% {
     transform: scaleX(1);
   }
+}
+
+.boton-azul {
+  background-color: white;
+  border: 2px solid #3A6794;
+  border-radius: 50px;
 }
