@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   }
 
 a  {
-  color: #5f9877;
+  color: #3A6794;
 }
 
 .verde  {
@@ -95,7 +95,7 @@ a  {
   position: fixed;
   bottom: 0;
   z-index: 1000;
-  background-color: #5f9877;
+  background-color: #3A6794;
   width: 100%;
   scale: 1 1;
   transform-origin: left;
@@ -106,10 +106,10 @@ a  {
 
 .progress {
   height: 8px;
-  background: #5f9877;
+  background: #3A6794;
   position: fixed;
   z-index: 1000;
-  top: 60;
+  bottom: 0;
   left: 0;
   width: 100%;
   transform-origin: 0 50%;
@@ -126,15 +126,58 @@ a  {
   }
 }
 
+.menu {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 1.5em;
+}
+
 .boton-azul {
   background-color: white;
   border: 3px solid #3A6794;
   border-radius: 50px;
-  font-weight: 600;
+  font-weight: 500;
   color: #3A6794;
   padding: 0.5em 0.8em;
+  margin: 1em;
+  transition: 0.4s;
+}
+
+.boton-azul:hover {
+  background-color: #3A6794;
+  border: 3px solid white;
+  border-radius: 50px;
+  font-weight: 500;
+  color: white;
+  padding: 0.5em 0.8em;
+  margin: 1em;
 }
 
 button {
   border-radius: 50px;
+}
+
+.boton-rosa {
+  background-color: #C787A2;
+  font-size: 2em;
+  border: 0px;
+  border-radius: 50px;
+  font-weight: 800;
+  color: white;
+  padding: 0.5em 0.8em;
+  margin: 0.5em;
+  transition: 0.4s;
+}
+
+.boton-rosa:hover {
+  background-color: white;
+  font-size: 2em;
+  border: 0px;
+  border-radius: 50px;
+  font-weight: 800;
+  color: #C787A2;
+  padding: 0.5em 0.8em;
+  margin: 0.5em;
+  transition: 0.4s;
 }
