@@ -114,9 +114,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   border-radius: 15px;
   height: 30vh;
   text-align: center;
-  display: flex;
   align-items: center;
+  display: flex;
   transition: 0.4s;
+  margin: 1em;
 }
 .tarjeta:hover {
   background-color: #004580;
@@ -140,7 +141,8 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   position: fixed;
   top: 15px;
   right: 15px;
-  font-size: 1.5em;
+  font-size: 1.7em;
+  color: #3A6794;
 }
 
 .boton-azul {
@@ -162,6 +164,26 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   color: white;
   padding: 0.5em 0.8em;
   margin: 1em;
+}
+
+.boton-azul2 {
+  background-color: #3A6794;
+  border: 3px solid white;
+  border-radius: 50px;
+  font-weight: 500;
+  color: white;
+  padding: 0.5em 0.8em;
+  transition: 0.4s;
+  margin-top: 0.5em;
+}
+
+.boton-azul2:hover {
+  background-color: white;
+  border: 3px solid #3A6794;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #3A6794;
+  padding: 0.5em 0.8em;
 }
 
 button {
@@ -192,3 +214,18 @@ button {
   transition: 0.4s;
 }
 
+
+audio::-webkit-media-controls-panel {
+  background-color: #CBD88F;
+}
+
+audio::-webkit-media-controls-timeline {
+  color: white;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #CBD88F;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
