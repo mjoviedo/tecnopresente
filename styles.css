@@ -55,8 +55,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding: 0.2em;
   }
 
-a  {
-  color: #3A6794;
+.tarjeta a  {
+  color: white;
+  text-decoration: none;
 }
 
 .verde  {
@@ -71,6 +72,15 @@ a  {
   color: white;
 }
 
+.btn-azul  {
+  background-color: #004580;
+  color: white;
+}
+.btn-azul:hover  {
+  background-color: #336A99;
+  color: white;
+}
+
 .detalles {
   color: #696969;
   font-style: italic;
@@ -78,6 +88,31 @@ a  {
 
 .bg-verde {
   background-color: #D1E1A9;
+}
+
+.bg-celeste {
+  background-color: #A2D0E7;
+}
+
+.tarjeta {
+  background-color: #A9BE45;
+  color: white;
+  font-weight: 100;
+  border: 2px solid #004580;
+  border-radius: 15px;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+}
+.tarjeta:hover {
+  background-color: #004580;
+}
+
+.black {
+  font-family: vietnam-black;
+  font-weight: 800;
 }
 
 
@@ -88,43 +123,6 @@ a  {
 }
 
 
-/* BARRA DE PROGRESO */
-
-.barra-scroll {
-  height: 8px;
-  position: fixed;
-  bottom: 0;
-  z-index: 1000;
-  background-color: #3A6794;
-  width: 100%;
-  scale: 1 1;
-  transform-origin: left;
-  animation: barra-scroll linear;
-  animation-timeline: scroll();
-}
-
-
-.progress {
-  height: 8px;
-  background: #3A6794;
-  position: fixed;
-  z-index: 1000;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  transform-origin: 0 50%;
-  animation: scaleProgress auto linear;
-  animation-timeline: scroll(root);
-}
-
-@keyframes scaleProgress {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
 
 .menu {
   position: fixed;
@@ -181,3 +179,4 @@ button {
   margin: 0.5em;
   transition: 0.4s;
 }
+
