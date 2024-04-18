@@ -14,7 +14,30 @@
 </head>
 <body>
 
-<div class="container-lg">
+<!-- MENU -->
+
+<a class="menu" data-bs-toggle="offcanvas" href="#offcanvasScrolling" role="button" aria-controls="offcanvasExample">
+    <i class="fa-solid fa-bars"></i>
+  </a>
+  
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptions" id="offcanvasScrollingLabel">TECNOPRESENTE</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#materiales">Materiales</a></li>
+                <li><a href="index.html#recorridos">Recorridos</a></li>
+              </ul>
+  
+            </div>
+          </div>
+
+<!-- CONTENIDO -->
+
+<div class="container-lg min-vh-100">
     <div class="row align-items-center" style="height: 30vh;">
         <div class="col-sm-10 m-4">
             <img src="img/logo.png" alt="" style="max-width: 300px;">
@@ -41,7 +64,7 @@
     </div>
 </div>
 
-<div id="materiales" class="container-lg">
+<div id="materiales" class="container-lg" style="min-height: 60vh;">
     <div class="row">
         <h2>
             MATERIALES
@@ -49,7 +72,7 @@
     </div>
     
     <div class="row justify-content-center">
-        <div class="col-sm-3 tarjeta">
+        <div class="col-sm-6 col-md-3 tarjeta t-verde">
             <a href="" data-bs-toggle="modal" data-bs-target="#curar">
             <div>
                 <h2 class="black">CURAR Y SELECCIONAR</h2>
@@ -57,15 +80,15 @@
             </div>
             </a>
         </div>
-        <div class="col-sm-3 tarjeta">
-            <a href="" data-bs-toggle="modal" data-bs-target="#curar">
-            <div>
-                <h2 class="black">CURAR Y SELECCIONAR</h2>
-                <p class="detalle-tarjeta">Materiales y herramientas digitales</p>
+        <div class="col-sm-6 col-md-3 tarjeta t-verde">
+            <a href="" data-bs-toggle="modal" data-bs-target="#investigar">
+            <div class="justify-content-center align-items-center">
+                <h2 class="black"  style="text-align: center;">INVESTIGAR</h2>
+                <p class="detalle-tarjeta">Bancos de recursos</p>
             </div>
             </a>
         </div>
-        <div class="col-sm-3 tarjeta">
+        <div class="col-sm-6 col-md-3 tarjeta t-verde">
             <a href="" data-bs-toggle="modal" data-bs-target="#curar">
             <div>
                 <h2 class="black">CURAR Y SELECCIONAR</h2>
@@ -74,12 +97,45 @@
             </a>
         </div>
     </div>
-    
-
-
 
 </div>
 
+
+<div id="pensar" class="container-lg" style="min-height: 60vh;">
+    <div class="row">
+        <h2>
+            PENSAR LA ENSEÑANZA
+        </h2>
+    </div>
+    
+    <div class="row justify-content-center">
+        <div class="col-sm-3 tarjeta t-rosa">
+            <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+            <div>
+                <h2 class="black">CURAR Y SELECCIONAR</h2>
+                <p class="detalle-tarjeta">Materiales y herramientas digitales</p>
+            </div>
+            </a>
+        </div>
+        <div class="col-sm-3 tarjeta t-rosa">
+            <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+            <div>
+                <h2 class="black">CURAR Y SELECCIONAR</h2>
+                <p class="detalle-tarjeta">Materiales y herramientas digitales</p>
+            </div>
+            </a>
+        </div>
+        <div class="col-sm-3 tarjeta t-rosa">
+            <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+            <div>
+                <h2 class="black">CURAR Y SELECCIONAR</h2>
+                <p class="detalle-tarjeta">Materiales y herramientas digitales</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+</div>
 
 
 <div class="container-lg">
@@ -106,7 +162,7 @@
             <div class="row justify-content-center">
                 <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/aves-colorear.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,7 +172,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/aves-colorear.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +182,7 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/aves-colorear.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -143,6 +199,80 @@
       </div>
     </div>
   </div>
+
+
+<!-- MODAL 1: CURAR Y SELECCIONAR -->
+<div class="modal fade" id="investigar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h3" id="exampleModalLabel">CURAR Y SELECCIONAR</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-azul" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
 
 
 

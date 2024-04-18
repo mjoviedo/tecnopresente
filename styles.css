@@ -55,10 +55,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding: 0.2em;
   }
 
-.tarjeta a  {
-  color: white;
-  text-decoration: none;
-}
+
 
 .verde  {
   color: #D1E1A9;
@@ -94,13 +91,28 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   background-color: #A2D0E7;
 }
 
-.tarjeta {
-  background-color: #A9BE45;
+.tarjeta a  {
   color: white;
-  font-weight: 100;
+  text-decoration: none;
+}
+
+.t-verde {
+  background-color: #A9BE45;
   border: 2px solid #004580;
+}
+
+.t-rosa {
+  background-color: #C787A2;
+  border: 2px solid #004580;
+}
+
+
+.tarjeta {
+  color: white;
+  overflow: hidden;
+  font-weight: 100;
   border-radius: 15px;
-  height: 20vh;
+  height: 30vh;
   text-align: center;
   display: flex;
   align-items: center;
