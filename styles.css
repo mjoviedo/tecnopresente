@@ -55,7 +55,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     padding: 0.2em;
   }
 
-
+.bg-gradiente {
+  background: linear-gradient(#A1C035, #006C9E);
+}
 
 .verde  {
   color: #D1E1A9;
@@ -144,6 +146,39 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   font-size: 1.7em;
   color: #3A6794;
 }
+
+.boton-recorrido {
+  background-color: #A1C035;
+  border: 0px solid #3A6794;
+  border-radius: 50px;
+  font-weight: 500;
+  color: white;
+  padding: 1em 1.5em;
+  margin: 1em;
+  transition: 0.4s;
+}
+
+.boton-recorrido:hover {
+  background-color: #3A6794;
+  border: 0px solid white;
+}
+
+.boton-recorrido2 {
+  background-color: #3A6794;
+  border: 0px solid #3A6794;
+  border-radius: 50px;
+  font-weight: 500;
+  color: white;
+  padding: 1em 1.5em;
+  margin: 1em;
+  transition: 0.4s;
+}
+
+.boton-recorrido2:hover {
+  background-color: #A1C035;
+  border: 0px solid white;
+}
+
 
 .boton-azul {
   background-color: white;
