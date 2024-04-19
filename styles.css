@@ -48,26 +48,32 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   background-size: cover;
 }
 
-/* RESALTADO DE TEXTO */
+/* COLORES */
 
-.resaltado {
-    background-color: #D1E1A9;
-    padding: 0.2em;
-  }
+.azul {
+  color: #006C9E;
+}
+
+.verde  {
+  color: #A1C035;
+}
+
+.black {
+  font-family: vietnam-black;
+  font-weight: 800;
+}
 
 .bg-gradiente {
   background: linear-gradient(#A1C035, #006C9E);
 }
 
-.verde  {
-  color: #D1E1A9;
-}
+
 .btn-verde  {
-  background-color: #D1E1A9;
+  background-color: #A1C035;
   color: white;
 }
 .btn-verde:hover  {
-  background-color: #94a171;
+  background-color: #004580;
   color: white;
 }
 
@@ -76,7 +82,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   color: white;
 }
 .btn-azul:hover  {
-  background-color: #336A99;
+  background-color: #A1C035;
   color: white;
 }
 
@@ -85,49 +91,49 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   font-style: italic;
 }
 
+
 .bg-verde {
-  background-color: #D1E1A9;
-}
-
-.bg-celeste {
-  background-color: #A2D0E7;
-}
-
-.tarjeta a  {
-  color: white;
-  text-decoration: none;
-}
-
-.t-verde {
   background-color: #A9BE45;
-  border: 2px solid #004580;
 }
 
-.t-rosa {
+.bg-rosa {
   background-color: #C787A2;
-  border: 2px solid #004580;
-}
-
+} 
 
 .tarjeta {
   color: white;
-  overflow: hidden;
-  font-weight: 100;
+  text-decoration: none;
   border-radius: 15px;
   height: 30vh;
-  text-align: center;
-  align-items: center;
-  display: flex;
   transition: 0.4s;
   margin: 1em;
+  position: relative;
 }
+
 .tarjeta:hover {
   background-color: #004580;
 }
 
-.black {
-  font-family: vietnam-black;
-  font-weight: 800;
+.tarjeta a{
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.tarjeta p {
+  font-size: calc(0.75em + 1vmin);
+}
+
+.tarjeta h2 {
+  font-size: calc(1.75em + 1vmin);
+}
+
+.tarjeta .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -151,10 +157,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   background-color: #A1C035;
   border: 0px solid #3A6794;
   border-radius: 50px;
-  font-weight: 500;
+  font-weight: 800;
   color: white;
   padding: 1em 1.5em;
-  margin: 1em;
+  margin: 0.5em 0;
   transition: 0.4s;
 }
 
@@ -167,10 +173,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   background-color: #3A6794;
   border: 0px solid #3A6794;
   border-radius: 50px;
-  font-weight: 500;
+  font-weight: 800;
   color: white;
   padding: 1em 1.5em;
-  margin: 1em;
+  margin: 0.5em 0;
   transition: 0.4s;
 }
 
@@ -251,7 +257,7 @@ button {
 
 
 audio::-webkit-media-controls-panel {
-  background-color: #CBD88F;
+  background-color: #004580;
 }
 
 audio::-webkit-media-controls-timeline {
@@ -259,7 +265,6 @@ audio::-webkit-media-controls-timeline {
 }
 
 audio::-webkit-media-controls-volume-slider {
-  background-color: #CBD88F;
   border-radius: 25px;
   padding-left: 8px;
   padding-right: 8px;
