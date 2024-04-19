@@ -58,10 +58,42 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   color: #A1C035;
 }
 
+.blanco  {
+  color: white;
+}
+
+.rosa  {
+  color: #C787A2;
+}
+
 .black {
   font-family: vietnam-black;
   font-weight: 800;
 }
+
+.card-a {
+  background-color: #A1C035;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.card-a:hover {
+  background-color: #004580;
+}
+
+.card-a p {
+  font-size: calc(0.75em + 1vmin);
+}
+
+.card-a h5 {
+  font-size: calc(1.5em + 1vmin);
+}
+
+.tarjeta:hover {
+  background-color: #004580;
+}
+
 
 .bg-gradiente {
   background: linear-gradient(#A1C035, #006C9E);
@@ -100,12 +132,13 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   background-color: #C787A2;
 } 
 
+
 .tarjeta {
   color: white;
   margin: 0.5em;
   text-decoration: none;
   border-radius: 15px;
-  height: 30vh;
+  height: 38vh;
   transition: 0.4s;
   position: relative;
 }
@@ -255,6 +288,7 @@ button {
   transition: 0.4s;
 }
 
+/* ESTILOS REPRODUCTOR
 
 audio::-webkit-media-controls-panel {
   background-color: #004580;
@@ -269,3 +303,5 @@ audio::-webkit-media-controls-volume-slider {
   padding-left: 8px;
   padding-right: 8px;
 }
+
+*/

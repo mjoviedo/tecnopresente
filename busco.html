@@ -10,6 +10,7 @@
     <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
    <link href="fontawesome/css/brands.css" rel="stylesheet">
    <link href="fontawesome/css/solid.css" rel="stylesheet">
+   
 
 </head>
 <body>
@@ -47,14 +48,14 @@
 
     -->
 
-    <div class="row justify-content-center align-items-center">
+    <div class="row align-items-center">
         
-        <div class="col-sm-4 m-2 order-sm-1" style="padding-top: 5em; padding-bottom: 5em;">
+        <div class="col-sm-5 m-2 order-sm-1" style="padding-top: 5em;">
           <a href="index.html"><img class="img-fluid my-2" src="img/logo.png" alt="" style="max-width: 300px;"></a>
 
             <h2 class="azul black my-2">BUSCO</h2>
             <p>Cómo buscar materiales educativos ya hechos y citarlos correctamente.</p>
-            <audio controls>
+            <audio controls style="width:80%; margin: 0.5em 0;">
                 <source src="amnesia.mp3" type="audio/ogg">
                 <source src="amnesia.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
@@ -66,23 +67,24 @@
 
         </div>
       
-        <div class="col-sm-6 m-2 order-sm-2">
+        <div class="col-sm-5 m-2 order-sm-2 justify-content-center">
           <img class="img-fluid p-2" src="img/ilustracion-busco.png" alt="">
         </div>
 
     </div>
 </div>
 
-<div id="materiales" class="container-xl" style="min-height: 60vh;">
+<div id="materiales" class="container-xl" style="min-height: 60vh; padding-top: 20vh;">
     
     <div class="row justify-content-center">
         
-        <div class="col-10">
+        <div class="">
           <h2 class="azul black">MATERIALES</h2>
         </div>
     
     </div>
     
+    <!-- TARJETAS EN DIV
     <div class="row justify-content-center">
 
       <div class="col-sm-6 col-md-5 col-lg-3 tarjeta bg-verde">
@@ -90,7 +92,7 @@
           <a href="" data-bs-toggle="modal" data-bs-target="#curar">
             <div class="texto">
                 <h2 class="black">CURAR Y SELECCIONAR</h2>
-                <p>Materiales y herramientas digitales</p>
+                <p>materiales y herramientas digitales</p>
             </div>
           </a>
       
@@ -99,8 +101,8 @@
           
         <a href="" data-bs-toggle="modal" data-bs-target="#curar">
           <div class="texto">
-              <h2 class="black">INVESTIGAR</h2>
-              <p>Bancos de recursos</p>
+              <h2 class="black">EXPLORAR</h2>
+              <p>bancos de recursos</p>
           </div>
         </a>
     
@@ -109,26 +111,167 @@
           
       <a href="" data-bs-toggle="modal" data-bs-target="#curar">
         <div class="texto">
-            <h2 class="black">CURAR Y SELECCIONAR</h2>
-            <p>Materiales y herramientas digitales</p>
+            <h2 class="black">CONOCER Y NAVEGAR</h2>
+            <p>recursos educativos abiertos (REA)</p>
         </div>
       </a>
   
-  </div>
+    </div>
+
+    <div class="col-sm-6 col-md-5 col-lg-3 tarjeta bg-verde">
+          
+      <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+        <div class="texto">
+            <h2 class="black">RECORRER</h2>
+            <p>repositorios educativos</p>
+        </div>
+      </a>
+  
+    </div>
+
+    <div class="col-sm-6 col-md-5 col-lg-3 tarjeta bg-verde">
+          
+      <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+        <div class="texto">
+            <h2 class="black">USAR E INVESTIGAR</h2>
+            <p>Wikipedia</p>
+        </div>
+      </a>
+  
+    </div>
+
+    <div class="col-sm-6 col-md-5 col-lg-3 tarjeta bg-verde">
+          
+      <a href="" data-bs-toggle="modal" data-bs-target="#curar">
+        <div class="texto">
+            <h2 class="black">EVALUAR Y CITAR</h2>
+            <p>fuentes de distintos tipos</p>
+        </div>
+      </a>
+  
+    </div>
+  
+  -->
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" style="padding-top: 2em;">
+      
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <a style="text-decoration: none;" href="" data-bs-toggle="modal" data-bs-target="#curar">
+            <h5 class="card-title blanco black">CURAR Y SELECCIONAR</h5>
+            <p class="card-text blanco">materiales y herramientas digitales</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <h5 class="card-title blanco black">EXPLORAR</h5>
+            <p class="card-text blanco">bancos de recursos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <h5 class="card-title blanco black">CONOCER Y NAVEGAR</h5>
+            <p class="card-text blanco">recursos educativos abiertos (REA)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <h5 class="card-title blanco black">RECORRER</h5>
+            <p class="card-text blanco">repositorios educativos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <h5 class="card-title blanco black">USAR E INVESTIGARQ</h5>
+            <p class="card-text blanco">Wikipedia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 card-a">
+          <div class="card-body">
+            <h5 class="card-title blanco black">EVALUAR Y CITAR</h5>
+            <p class="card-text blanco">fuentes de distintos tipos</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 </div>
 
 
-<div id="pensar" class="container-fluid" style="min-height: 60vh; margin-top: 10vh;">
+<div id="pensar" class="container-lg" style="min-height: 60vh; margin-top: 20vh;">
     
-  <div class="row justify-content-center">
+  <div class="row">
       
-      <div class="col-10">
+      <div class="">
         <h2 class="azul black">PENSAR LA ENSEÑANZA</h2>
       </div>
   
+
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" style="padding-top: 2em;">
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/aves-colorear.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title rosa black">¿Están listos para el próximo hit?
+          </h5>
+          <p class="card-text">En esta propuesta didáctica para el nivel Primario, se propone conocer una herramienta digital, Song Maker, con la que se puede jugar, experimentar y crear hits propios y, mientras lo hacen, aprender algunos conceptos musicales que hay que conocer para mejorar las creaciones. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/apura-dibujos.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title rosa black">Lo que se cuenta en las paredes: murales interactivos</h5>
+          <p class="card-text">Esta propuesta para el nivel Secundario plantea el desarrollo de una obra colectiva, desde los bocetos a la obra terminada, que impulse a afianzar los lazos entre estudiantes, docentes e institución. Se ofrecen actividades que abordan el diseño y la creación de una pintura mural para la escuela.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/bg-portada.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title rosa black">¡Manos a la tablet!</h5>
+          <p class="card-text">Es una secuencia didáctica para nivel Inicial que integra Ciencias Sociales, Ciencias Naturales y Tecnología, Educación Artística e Identidad y Convivencia. La secuencia se centra en la experimentación con dispositivos digitales, en particular la tableta o tablet, computadora disponible en el kit del Aula Digital Móvil.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/icono-lapiz.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title rosa black">Participación juvenil: diseño y producción de <i>podcast</i></h5>
+          <p class="card-text">En este taller se invita a diseñar y producir un <i>podcast</i> a partir de temáticas relevantes para los y las jóvenes. Para ello, se propone un proceso que abarca desde la escritura del guion, el diseño sonoro y la creación de una identidad visual, como así también la grabación, edición y compilación del podcast.</p>
+        </div>
+      </div>
+    </div>
   </div>
   
+
+<!-- TARJETAS ROSAS
+
   <div class="row justify-content-center">
 
     <div class="col-sm-6 col-md-5 col-lg-3 tarjeta bg-rosa">
@@ -160,7 +303,9 @@
       </div>
     </a>
 
-</div>
+  </div>
+
+-->
 
 <div class="container-fluid" style="margin-top: 10vh;">
   <div class="row justify-content-center align-items-center my-3">
