@@ -102,11 +102,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 .tarjeta {
   color: white;
+  margin: 0.5em;
   text-decoration: none;
   border-radius: 15px;
   height: 30vh;
   transition: 0.4s;
-  margin: 1em;
   position: relative;
 }
 
