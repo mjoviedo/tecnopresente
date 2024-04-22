@@ -94,6 +94,8 @@ background-color: #C787A2;
 button:hover, .card:hover {
   cursor: pointer;
   filter: drop-shadow(10px 10px 10px #9ca7c4bc);
+  transform: scale(1.05);
+
 }
 
 
@@ -225,20 +227,39 @@ button:hover, .card:hover {
   position: fixed;
   top: 1em;
   right: 1em;
-  height: 3em;
+  height: 3.5em;
+  filter: opacity(0.8);
   transition: 0.4s;
+}
+
+.logo-menu:hover {
+  filter: opacity(1);
+  transform: scale(1.1);
 }
 
 .menu1, .menu2, .menu3 {
   position: fixed;
   right: 1em;
-  max-height: 2em;
+  max-height: 2.2em;
   transition: 0.4s;
+  filter: opacity(0.5);
 }
 
 .menu1 {
   top: 5em;
-  transition: 0.4s;
+}
+
+.menu2 {
+  top: 7em;
+}
+
+.menu3 {
+  top: 9em;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover {
+  filter: opacity(1);
+  transform: scale(1.2);
 }
 
 .titulo {
@@ -322,6 +343,11 @@ button:hover, .card:hover {
 
 .card {
   transition: 0.4s;
+}
+
+.selected {
+filter: grayscale(1);
+filter: opacity(0.5);
 
 }
 
