@@ -73,35 +73,47 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 .info {
 border: 0px;
-background-color: white;
+background-color: #C787A2;
 }
 
 
 .card-b {
-  background-color: #C787A2;
-  color: white;
+  background-color: white;
   text-decoration: none;
-  font-weight: 800;
   min-height: 30vh;
 }
 
+.card-b .card-title {
+  color: #C787A2;
+}
+
 .card-b:hover {
-  background-color: #004580;
+  background-color: #efd5e0;
+}
+
+button:hover, .card:hover {
+  cursor: pointer;
+  filter: drop-shadow(10px 10px 10px #9ca7c4bc);
 }
 
 
+
+.card-text {
+  font-size: 0.9em;
+}
 
 
 .card-a {
   background-color: #A1C035;
   color: white;
   text-decoration: none;
-  font-weight: 800;
   min-height: 30vh;
+  transition: 0.4s;
 }
 
 .card-a:hover {
   background-color: #004580;
+   /* background: linear-gradient(#A1C035, #006C9E); */
 }
 
 .card-a p {
@@ -209,14 +221,29 @@ background-color: white;
   object-fit: cover;
 }
 
-
-
-.menu {
+.logo-menu {
   position: fixed;
-  top: 15px;
-  right: 15px;
-  font-size: 1.7em;
-  color: #3A6794;
+  top: 1em;
+  right: 1em;
+  height: 3em;
+  transition: 0.4s;
+}
+
+.menu1, .menu2, .menu3 {
+  position: fixed;
+  right: 1em;
+  max-height: 2em;
+  transition: 0.4s;
+}
+
+.menu1 {
+  top: 5em;
+  transition: 0.4s;
+}
+
+.titulo {
+  font-size: 7em;
+  transition: 0.4s;
 }
 
 .boton-recorrido {
@@ -291,6 +318,11 @@ background-color: white;
   font-weight: 500;
   color: #3A6794;
   padding: 0.5em 0.8em;
+}
+
+.card {
+  transition: 0.4s;
+
 }
 
 button {
