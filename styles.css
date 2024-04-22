@@ -223,12 +223,23 @@ button:hover, .card:hover {
   object-fit: cover;
 }
 
+.icono-recorrido {
+  position: absolute; 
+  left: 10px; 
+  top: 50px; 
+  z-index: -1; 
+  height: 400px; 
+  width: 200px; 
+  filter: opacity(0.3);
+}
+
 .logo-menu {
-  position: fixed;
+  z-index: 2;
+  position:absolute ;
   top: 1em;
   right: 1em;
   height: 3.5em;
-  filter: opacity(0.8);
+  filter: opacity(0.8) drop-shadow(2px 2px 4px white);
   transition: 0.4s;
 }
 
@@ -238,11 +249,13 @@ button:hover, .card:hover {
 }
 
 .menu1, .menu2, .menu3 {
+  z-index: 2;
   position: fixed;
   right: 1em;
   max-height: 2.2em;
   transition: 0.4s;
-  filter: opacity(0.5);
+  filter: opacity(0.5) drop-shadow(2px 2px 4px white);
+
 }
 
 .menu1 {
@@ -284,7 +297,7 @@ button:hover, .card:hover {
 }
 
 .boton-recorrido2 {
-  background-color: #3A6794;
+  background-color: #02477A;
   border: 0px solid #3A6794;
   border-radius: 50px;
   font-weight: 800;
@@ -346,10 +359,13 @@ button:hover, .card:hover {
 }
 
 .selected {
-filter: grayscale(1);
-filter: opacity(0.5);
-
+filter: opacity(1) drop-shadow(2px 2px 4px lightblue);
 }
+
+.selected:hover {
+  transform: scale(1);
+  filter: opacity(1);;
+  }
 
 button {
   border-radius: 50px;
