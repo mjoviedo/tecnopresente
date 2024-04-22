@@ -71,11 +71,33 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   font-weight: 800;
 }
 
+.info {
+border: 0px;
+background-color: white;
+}
+
+
+.card-b {
+  background-color: #C787A2;
+  color: white;
+  text-decoration: none;
+  font-weight: 800;
+  min-height: 30vh;
+}
+
+.card-b:hover {
+  background-color: #004580;
+}
+
+
+
+
 .card-a {
   background-color: #A1C035;
   color: white;
   text-decoration: none;
   font-weight: 800;
+  min-height: 30vh;
 }
 
 .card-a:hover {
@@ -97,6 +119,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 .bg-gradiente {
   background: linear-gradient(#A1C035, #006C9E);
+}
+
+.bg-gradiente2 {
+  background: linear-gradient(white, #A1C035);
 }
 
 
@@ -135,6 +161,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
 .centrado {
   margin: auto;
   text-align: center;
+}
+
+.vh25 {min-height: 25vh
 }
 
 .tarjeta {
