@@ -136,6 +136,10 @@ button:hover, .card:hover {
 }
 
 .bg-gradiente2 {
+  background: linear-gradient(#BAE8A9, #7CB7A5);
+}
+
+.bg-gradiente3 {
   background: linear-gradient(white, #A1C035);
 }
 
