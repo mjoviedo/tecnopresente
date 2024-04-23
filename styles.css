@@ -54,6 +54,11 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   color: #006C9E;
 }
 
+.azuloscuro {
+  color: #02477A;
+}
+
+
 .verde  {
   color: #A1C035;
 }
@@ -140,7 +145,7 @@ button:hover, .card:hover {
 }
 
 .bg-gradiente3 {
-  background: linear-gradient(white, #A1C035);
+  background: linear-gradient(white, #D3DFAB);
 }
 
 
