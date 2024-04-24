@@ -125,6 +125,83 @@ button:hover, .card:hover {
   font-size: 0.9em;
 }
 
+.card-n {
+background-color: #F3F2E2;
+color: #016D9F;
+text-decoration: none;
+min-height: 30vh;
+transition: 0.4s;
+.card-footer {
+  background-color: #F5F5F5;
+  transition: 0.4s;
+}
+}
+
+.card-n:hover {
+  background-color: #004580;
+  color: white;
+   /* background: linear-gradient(#A1C035, #006C9E); */
+   .card-footer {
+    color: white;
+    background-color: #004580;
+    transition: 0.4s;
+  }
+  h5 {
+    color: white;
+  }
+}
+
+
+.card-n p {
+  font-size: calc(0.75em + 1vmin);
+}
+
+.card-n h5 {
+  color: #016D9F;
+  font-size: calc(1.5em + 1vmin);
+}
+
+
+.card-i {
+  background: url(img/bgtarjeta.png);
+  background-position: center;
+  background-size: cover;
+  color: #016D9F;
+  text-decoration: none;
+  min-height: 30vh;
+  transition: 0.4s;
+  .card-footer {
+    background-color: #B9E8A9;
+    transition: 0.4s;
+  }
+  }
+  
+  .card-i:hover {
+    background-color: #004580;
+    color: white;
+     /* background: linear-gradient(#A1C035, #006C9E); */
+     .card-footer {
+      color: white;
+      background-color: #004580;
+      transition: 0.4s;
+    }
+    h5 {
+      color: #004580;
+    }
+  }
+  
+  
+  .card-i p {
+    font-size: calc(0.75em + 1vmin);
+  }
+  
+  .card-i h5 {
+    color: #016D9F;
+    font-size: calc(1.5em + 1vmin);
+  }
+
+
+
 
 .card-a {
   background-color: #A1C035;
