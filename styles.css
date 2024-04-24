@@ -99,6 +99,15 @@ background-color: #C787A2;
   color: #3A6794;
 }
 
+a {
+  text-decoration: none;
+  color: #3A6794;
+}
+
+a:hover {
+  color: #A1C035;
+}
+
 .card-b:hover {
   background-color: #589CD644;
 }
