@@ -177,6 +177,7 @@ transition: 0.4s;
   transition: 0.4s;
   .card-footer {
     background-color: #F5F5F5;
+    color: #004580;
     transition: 0.4s;
   }
   }
@@ -198,7 +199,6 @@ transition: 0.4s;
   
   .card-i p {
     font-size: calc(0.75em + 1vmin);
-    color:#696969;
   }
   
   .card-i h5 {
@@ -384,7 +384,7 @@ transition: 0.4s;
 }
 
 .menu1selected {
-  filter: drop-shadow(4px 4px 2px #64B0D7) opacity(1);
+  filter: opacity(1);
     }
  
   
