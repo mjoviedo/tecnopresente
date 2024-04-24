@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
   color: #02477A;
 }
 
+.azulclaro {
+  color: #589CD6;
+}
+
 
 .verde  {
   color: #A1C035;
@@ -86,14 +90,17 @@ background-color: #C787A2;
   background-color: white;
   text-decoration: none;
   min-height: 30vh;
+  border-color: #3A6794;
+  border-radius: 2em;
+  img {border-radius: 2em 2em 0em 0em;}
 }
 
 .card-b .card-title {
-  color: #C787A2;
+  color: #3A6794;
 }
 
 .card-b:hover {
-  background-color: #efd5e0;
+  background-color: #589CD644;
 }
 
 button:hover, .card:hover {
@@ -234,12 +241,12 @@ button:hover, .card:hover {
 
 .icono-recorrido {
   position: absolute; 
-  left: 10px; 
+  left: -30px; 
   top: 50px; 
   z-index: -1; 
-  height: 400px; 
-  width: 200px; 
-  filter: opacity(0.3);
+  height: 160px; 
+  width: 180px; 
+  filter: opacity(0.9);
 }
 
 .logo-menu {
@@ -261,9 +268,9 @@ button:hover, .card:hover {
   z-index: 2;
   position: fixed;
   right: 1em;
-  max-height: 2.2em;
+  max-width: 1.8em;
   transition: 0.4s;
-  filter: opacity(0.5) drop-shadow(2px 2px 4px white);
+  filter: opacity(0.5);
 
 }
 
@@ -272,11 +279,11 @@ button:hover, .card:hover {
 }
 
 .menu2 {
-  top: 7em;
+  top: 8em;
 }
 
 .menu3 {
-  top: 9em;
+  top: 10em;
 }
 
 .menu1:hover, .menu2:hover, .menu3:hover {
@@ -284,13 +291,23 @@ button:hover, .card:hover {
   transform: scale(1.2);
 }
 
+.menu1selected {
+  filter: drop-shadow(4px 4px 2px #64B0D7) opacity(1);
+    }
+ 
+  
+  .menu1selected:hover {
+    transform: scale(1);
+    filter: opacity(1) drop-shadow(4px 4px 2px #64B0D7);
+    }
+
 .titulo {
   font-size: 7em;
   transition: 0.4s;
 }
 
 .boton-recorrido {
-  background-color: #A1C035;
+  background-color: #589CD6;
   border: 0px solid #3A6794;
   border-radius: 50px;
   font-weight: 800;
@@ -403,14 +420,7 @@ button:hover, .card:hover {
   transition: 0.4s;
 }
 
-.selected {
-filter: opacity(1) drop-shadow(2px 2px 4px lightblue);
-}
 
-.selected:hover {
-  transform: scale(1);
-  filter: opacity(1);;
-  }
 
 button {
   border-radius: 50px;
