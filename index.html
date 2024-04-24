@@ -20,9 +20,9 @@
         
     <!--ENCABEZADO-->
 
-    <div id="inicio" class="jumbotron min-vh-100 p-2 parallax" style="background-image: url(img/bg-portada.jpg); background-size: cover; background-position: center;">
+    <div id="inicio" class="jumbotron min-vh-100 p-2 parallax" style="background-image: url(img/bg-portada.png); background-size: cover; background-position: center;">
 
-            <img src="img/logo.png" alt="" style="max-width: 50vw; min-width: 20vw; position: absolute; top: 50%; left: 35%;">
+            <img src="img/logo.png" alt="" style="max-width: 40vw; min-width: 20vw; position: absolute; top: 40%; left: 30%; filter: drop-shadow(0px 0px 5px #cfdd94);">
           
     </div>
 
@@ -54,77 +54,58 @@
 
           </div>
 
-          <!--ENCABEZADO-->
+          <!--BOTONES RECORRIDOS-->
 
           <div id="recorridos" class="row row-cols-1 row-cols-md-3 g-4" style="padding-top: 2em; margin-top: 20vh; margin-bottom: 20vh; position: relative;">
             
-            <div class="col align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(img/recorrido-busco.png); background-position: center; background-repeat: no-repeat; background-size: contain; padding-top: 15vh;">
+            <div class="col recorrido align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(); background-position: center; background-repeat: no-repeat; background-size: contain;">
               <a href="busco.html">
-                <button class="boton-recorrido2" style="font-size: 1.5em;">
+                <button class="boton-recorrido2" style="font-size: 1.4em;">
                   BUSCO</button>
-              </a>
+                  <img class="img-recorrido" src="img/recorrido-busco.png" alt="">
+                </a>
               <br/>
             </div>
 
-            <div class="col align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(img/recorrido-produzco.png); background-position: center; background-repeat: no-repeat; background-size: contain; padding-top: 15vh;">
+            <div class="col recorrido align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(); background-position: center; background-repeat: no-repeat; background-size: contain;">
               <a href="busco.html">
-                <button class="boton-recorrido2" style="font-size: 1.5em;">
+                <button class="boton-recorrido2" style="font-size: 1.4em;">
                   PRODUZCO</button>
+                  <img class="img-recorrido" src="img/recorrido-produzco.png" alt="">
               </a>
               <br/>
             </div>
 
-            <div class="col align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(img/recorrido-reflexiono.png); background-position: center; background-repeat: no-repeat; background-size: contain; padding-top: 15vh;">
+            <div class="col recorrido align-items-center justify-content-center" style="height: 40vh; text-align: center; background-image: url(); background-position: center; background-repeat: no-repeat; background-size: contain;">
               <a href="busco.html">
-                <button class="boton-recorrido2" style="font-size: 1.5em;">
+                <button class="boton-recorrido2" style="font-size: 1.4em;">
                   REFLEXIONO</button>
+                  <img class="img-recorrido" src="img/recorrido-reflexiono.png" alt="">
               </a>
               <br/>
             </div>
             
           </div>
         </div>
-        </div>
-
-
-<!-- EX CONTENEDOR DE RECORRIDOS 
-
-    <div id="recorridos" class="container-fluid parallax">
-
-        
-      <div style="height: 10vh;"></div>
-      <div class="container-lg">
-
-        <div class="row justify-content-center">
-          
-          
-
-        </div>
-        <div class="row justify-content-center my-5" style="text-align-last: center;">
-          <div class="col">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus, massa vel accumsan commodo, nunc nibh consectetur sem, a imperdiet ex.
-            </p>
-          </div>
-        </div>
       </div>
-    </div>
 
--->
-        
-        
 
-    <div class="container-fluid" style="background-color: #F3F2E2;">
+        
+    <!-- BANNER BOTONES -->
+
+    <div class="container-fluid" style="background-color: #F3F2E2; padding: 0px;">
       <div class="row justify-content-center align-items-center">
-        <div class="row justify-content-center" style="text-align-last: center;">
-          <div class="col">
-            <a href=""><img class="img-fluid" src="img/banner-ws.png" alt=""></a>
+        
+        <div class="row justify-content-center">
+          <div class="col" style="text-align: right; background-image: url(img/banner-ws.png); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; min-height: 30vh; padding: 3em;">
+
+            <a href="https://whatsapp.com/channel/0029VaXUIBQCBtx8Kf0UX83t" class="azuloscuro black" style="font-size: 2.5em; line-height: 0.7em; text-decoration: none;">SUMATE A<br>NUESTRO<br>CANAL</a>
+
           </div>
-          
-          <div class="col justify-content-center align-items-center" style="padding: 3em;">
+          <div class="col justify-content-center align-items-center" style="text-align: center; padding: 3em;">
             <p class="azul">Quiero ser usuario Office</p>
-            <button type="button" href="" class="boton-recorrido2" data-bs-toggle="modal" data-bs-target="#exampleModal">SOLICITAR PAQUETE OFFICE</button> <br/>
-            <button href="" class="boton-recorrido">ACTIVACIÓN CUENTA OFFICE</button> <br/>
+            <button type="button" href="" class="boton-gris" data-bs-toggle="modal" data-bs-target="#exampleModal">SOLICITAR PAQUETE OFFICE</button> <br/>
+            <button href="" class="boton-gris">ACTIVACIÓN CUENTA OFFICE</button> <br/>
           </div>          
         </div>
       
@@ -137,10 +118,10 @@
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center my-4">
         <div class="col-3 mx-2 centrado">
-          <a href="" class="azul" style="text-decoration: none;"><img src="img/mail.png" style="vertical-align: -0.7em;" alt=""> Contactános</a>
+          <a href="" class="azul" style="text-decoration: none;"><img src="img/mail.png" style="vertical-align: -0.7em;" alt=""> Contactanos</a>
         </div>
         <div class="col-3 mx-2 centrado">
-          <a href="" class="azul" style="text-decoration: none;"><img src="img/somos.png" style="vertical-align: -0.7em;" alt=""> Quiénes somos</a>
+          <a href="" class="azul" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#institucional"><img src="img/somos.png" style="vertical-align: -0.7em;" alt=""> Institucional</a>
         </div>
         <!-- licencia CCBYSA
         <div class="col-3 mx-2 centrado">
@@ -166,16 +147,31 @@
   
 
    
+<!--MODAL INSTITUCIONAL -->
 
+
+<div class="modal fade" id="institucional" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title azul black" id="exampleModalLabel">Institucional</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfw1NEOBb3WE-fXZOoatvyhm3osvMv9QCNbP9-sz0IM2qkW0g/viewform?embedded=true" width="100%" height="550" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
 
 <!--MODAL DATOS GENERALES -->
-
-
-
 
 
 <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
