@@ -307,7 +307,8 @@ button:hover, .card:hover {
 
 .boton-recorrido2 {
   background-color: #02477A;
-  border: 0px solid #3A6794;
+  border: 0px;
+  font-family: "vietnam-black";
   width: 80%;
   border-radius: 50px;
   font-weight: 800;
@@ -319,20 +320,21 @@ button:hover, .card:hover {
 
 .boton-recorrido2:hover {
   background-color: #A1C035;
-  border: 0px solid white;
 }
 
 .img-recorrido {
-  height: 35vh;
+  height: 30vh;
+  margin-top: 0.8em;
 }
 
 .recorrido:hover {
   transition: 0.4s;
-}
-
-.recorrido:hover {
   transform: scale(1.1);
   filter: drop-shadow(5px 5px 5px #cedaa2);
+  .boton-recorrido2 {
+    background-color: #A1C035;
+    transform: scale(1);
+  }
 }
 
 .boton-gris {
@@ -350,6 +352,11 @@ button:hover, .card:hover {
   background-color: #A1C035;
 }
 
+.item-footer:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+  filter: drop-shadow(4px 4px 4px #cedaa2);
+}
 
 .boton-azul {
   background-color: white;
