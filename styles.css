@@ -85,6 +85,10 @@ border: 0px;
 background-color: #C787A2;
 }
 
+.card-body {
+  padding: 1em 2em 1em 2em;
+}
+
 
 .card-b {
   background-color: white;
@@ -129,7 +133,7 @@ button:hover, .card:hover {
 background-color: #F3F2E2;
 color: #016D9F;
 text-decoration: none;
-min-height: 30vh;
+min-height: 20vh;
 transition: 0.4s;
 .card-footer {
   background-color: #F5F5F5;
@@ -163,21 +167,22 @@ transition: 0.4s;
 
 
 .card-i {
-  background: url(img/bgtarjeta.png);
+  background: url(img/fondito-boton.png);
   background-position: center;
   background-size: cover;
+  background-color: #E8F7C2;
   color: #016D9F;
   text-decoration: none;
-  min-height: 30vh;
+  min-height: 20vh;
   transition: 0.4s;
   .card-footer {
-    background-color: #B9E8A9;
+    background-color: #F5F5F5;
     transition: 0.4s;
   }
   }
   
   .card-i:hover {
-    background-color: #004580;
+    background-color: #016D9F;
     color: white;
      /* background: linear-gradient(#A1C035, #006C9E); */
      .card-footer {
@@ -186,13 +191,14 @@ transition: 0.4s;
       transition: 0.4s;
     }
     h5 {
-      color: #004580;
+      color: white;
     }
   }
   
   
   .card-i p {
     font-size: calc(0.75em + 1vmin);
+    color:#696969;
   }
   
   .card-i h5 {
