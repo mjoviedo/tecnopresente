@@ -25,6 +25,35 @@ body  {
   font-family: "vietnam";
 }
 
+.cosito {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: mueva 5s;
+  
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+.cosito2 {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: mueva 9s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes mueva {
+  0% { transform: translate(10px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-15deg); }
+  20% { transform: translate(-30px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(10px, -15px) rotate(70deg); }
+  50% { transform: translate(-1px, 20px) rotate(-1deg); }
+  60% { transform: translate(-30px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 10px) rotate(-10deg); }
+  80% { transform: translate(-15px, -1px) rotate(14deg); }
+  90% { transform: translate(1px, 20px) rotate(-20deg); }
+  100% { transform: translate(10px, 1px) rotate(0deg); }
+}
 
 .textura-fondo {
   background: url(img/textura-fondo.png);
