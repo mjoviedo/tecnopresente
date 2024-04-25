@@ -25,6 +25,15 @@ body  {
   font-family: "vietnam";
 }
 
+
+.textura-fondo {
+  background: url(img/textura-fondo.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: repeat-y;
+  z-index: 5;
+}
+
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: 'Raleway';
 }
@@ -86,7 +95,7 @@ background-color: #C787A2;
 }
 
 .card-body {
-  padding: 1em 2em 1em 2em;
+  padding: 1em 1em 3em 1.5em;
 }
 
 
@@ -101,6 +110,7 @@ background-color: #C787A2;
 
 .card-b .card-title {
   color: #3A6794;
+  font-size: 1em;
 }
 
 a {
@@ -165,10 +175,19 @@ transition: 0.4s;
   font-size: calc(1.5em + 1vmin);
 }
 
+.mayus {
+  text-transform: uppercase;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 .card-i {
   background: url(img/fondito-boton.png);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-color: #E8F7C2;
   color: #016D9F;
@@ -236,7 +255,7 @@ transition: 0.4s;
 
 
 .bg-gradiente {
-  background: linear-gradient(#A1C035, #006C9E);
+  background: linear-gradient(#b1fa7a8a, #4ca99e7f);
 }
 
 .bg-gradiente2 {
@@ -285,7 +304,15 @@ transition: 0.4s;
   text-align: center;
 }
 
-.vh25 {min-height: 25vh
+.vh25 {
+  min-height: 20vh;
+  max-height: 20vh;
+}
+
+.boton-acceder {
+  position:absolute;
+  bottom: 0px;
+  right: 10px;
 }
 
 .tarjeta {
@@ -327,7 +354,7 @@ transition: 0.4s;
 
 .card-img-top {
   width: 100%;
-  height: 15vw;
+  height: 12vw;
   object-fit: cover;
 }
 
@@ -464,7 +491,6 @@ transition: 0.4s;
 .item-footer:hover {
   transition: 0.4s;
   transform: scale(1.1);
-  filter: drop-shadow(4px 4px 4px #cedaa2);
 }
 
 .boton-azul {
@@ -474,18 +500,14 @@ transition: 0.4s;
   font-weight: 500;
   color: #3A6794;
   padding: 0.5em 0.8em;
-  margin: 1em;
+  margin: auto;
   transition: 0.4s;
 }
 
 .boton-azul:hover {
   background-color: #3A6794;
   border: 3px solid white;
-  border-radius: 50px;
-  font-weight: 500;
   color: white;
-  padding: 0.5em 0.8em;
-  margin: 1em;
 }
 
 .boton-azul2 {
