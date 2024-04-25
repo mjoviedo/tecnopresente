@@ -74,7 +74,8 @@ body  {
 .textura-fondo {
   background: url(img/textura-fondo.png);
   background-position: left;
-  background-size: cover;
+  background-size: 100%;
+  background-size: contain;
   background-repeat: repeat-y;
   margin: 0px;
   padding: 0px;
@@ -348,8 +349,10 @@ transition: 0.4s;
 
 .centrado {
   margin: auto;
+  margin-top: 1em;
   text-align: center;
 }
+
 
 .vh25 {
   min-height: 20vh;
