@@ -511,6 +511,9 @@ transition: 0.4s;
 .img-recorrido {
   height: 30vh;
   margin-top: 0.8em;
+  position:relative;
+  top: 0%;
+  right: 0%;
 }
 
 .recorrido:hover {
