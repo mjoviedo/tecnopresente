@@ -471,8 +471,9 @@ transition: 0.4s;
     }
 
 .titulo {
-  font-size: 10vw;
+  font-size: 9vw;
   transition: 0.4s;
+  z-index: 5;
 }
 
 .boton-recorrido {
@@ -495,7 +496,8 @@ transition: 0.4s;
   background-color: #02477A;
   border: 0px;
   font-family: "vietnam-black";
-  width: 80%;
+  width: 90%;
+  font-size: 1.4em;
   border-radius: 50px;
   font-weight: 800;
   color: white;
@@ -509,8 +511,9 @@ transition: 0.4s;
 }
 
 .img-recorrido {
-  height: 30vh;
-  margin-top: 0.8em;
+  height: 25vh;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
   position:relative;
   top: 0%;
   right: 0%;
