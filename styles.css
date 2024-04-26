@@ -238,7 +238,6 @@ transition: 0.4s;
   background-position: top;
   background-size: cover;
   background-color: #E8F7C2;
-  color: #016D9F;
   text-decoration: none;
   min-height: 20vh;
   transition: 0.4s;
@@ -273,8 +272,16 @@ transition: 0.4s;
     font-size: calc(1.5em + 1vmin);
   }
 
+  .bloqueada {
+    filter: grayscale(1) brightness(0.9);
+    }
 
-
+  .bloqueada:hover {
+      filter: grayscale(1) brightness(1.7);
+      transform: scale(1);
+      cursor:wait;
+      }
+  
 
 .card-a {
   background-color: #A1C035;
