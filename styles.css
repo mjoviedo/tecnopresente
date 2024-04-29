@@ -415,13 +415,21 @@ transition: 0.4s;
   object-fit: cover;
 }
 
-.icono-recorrido {
+.piso-recorrido {
   position: absolute; 
   left: -60px; 
-  top: 50px; 
+  top: 385px; 
+  z-index: -2; 
+  filter: opacity(0.9);
+}
+
+.icono-recorrido {
+  position: absolute; 
+  left: 50px; 
+  top: 220px; 
   z-index: -1; 
   height: 240px; 
-  width: 190px; 
+  width: 150px; 
   filter: opacity(0.9);
 }
 
@@ -441,7 +449,7 @@ transition: 0.4s;
 }
 
 .menu1, .menu2, .menu3 {
-  z-index: 2;
+  z-index: 6;
   position: fixed;
   right: 1em;
   max-width: 1.8em;
@@ -474,11 +482,16 @@ transition: 0.4s;
   
   .menu1selected:hover {
     transform: scale(1);
-    filter: opacity(1) drop-shadow(4px 4px 2px #64B0D7);
+    filter: opacity(1) drop-shadow(4px 4px 2px #64d7a3);
     }
 
 .titulo {
-  font-size: 12vh;
+  font-size:  clamp(3.5rem, 3rem + 1.6vw, 5rem);
+  transition: 0.4s;
+  z-index: 5;
+}
+.subtitulo {
+  font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
   transition: 0.4s;
   z-index: 5;
 }
