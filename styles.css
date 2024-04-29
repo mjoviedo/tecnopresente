@@ -417,11 +417,11 @@ transition: 0.4s;
 
 .icono-recorrido {
   position: absolute; 
-  left: -30px; 
+  left: -60px; 
   top: 50px; 
   z-index: -1; 
-  height: 160px; 
-  width: 180px; 
+  height: 240px; 
+  width: 190px; 
   filter: opacity(0.9);
 }
 
@@ -478,7 +478,7 @@ transition: 0.4s;
     }
 
 .titulo {
-  font-size: 9vw;
+  font-size: 12vh;
   transition: 0.4s;
   z-index: 5;
 }
@@ -571,6 +571,16 @@ transition: 0.4s;
   background-color: #3A6794;
   border: 3px solid white;
   color: white;
+}
+
+.boton-wsp {
+  filter: opacity(0.8);
+  transition: 0.4s;
+}
+
+.boton-wsp:hover {
+  transform: scale(1.1);
+  filter: opacity(1);
 }
 
 .boton-azul2 {
