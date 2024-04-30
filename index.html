@@ -43,7 +43,7 @@
             
             <!-- VIDEO INSTAGRAM -->
             <div class="col-md-4 p-2" style="margin: auto;">
-               <p style="text-align: center;"> <iframe width="300" height="525" src="https://www.youtube.com/embed/_7LrKtluvd4" frameborder="0" allowfullscreen=""></iframe></p>
+               <p style="text-align: center;"> <iframe width="300" height="525" style="border: 15px solid #B3EDC7; border-radius: 25px;" src="https://www.youtube.com/embed/_7LrKtluvd4" frameborder="0" allowfullscreen=""></iframe></p>
 
 
             </div>
@@ -112,8 +112,8 @@
           </div>
           <div class="col justify-content-center align-items-center" style="text-align: center; padding: 3em;">
             <p class="azul">Quiero ser usuario Office</p>
-            <button type="button" href="" class="boton-gris" data-bs-toggle="modal" data-bs-target="#exampleModal">SOLICITAR PAQUETE OFFICE</button> <br/>
-            <button href="" class="boton-gris">ACTIVACIÓN CUENTA OFFICE</button> <br/>
+            <button type="button" href="" class="boton-gris" data-bs-toggle="modal" data-bs-target="#solicitaroffice">SOLICITAR PAQUETE OFFICE</button> <br/>
+            <button type="button" href="" class="boton-gris" data-bs-toggle="modal" data-bs-target="#activaroffice">ACTIVACIÓN CUENTA OFFICE</button> <br/>
           </div>          
         </div>
       
@@ -237,10 +237,16 @@
           </strong><br>
           Lucía Escalera
         </p>
-        <h2 class="azul" style="margin-top: 2em; margin-bottom: 1em;">EQUIPO DE PRODUCCIÓN</h2>
+        
+        <!--
+        
+          <h2 class="azul" style="margin-top: 2em; margin-bottom: 1em;">EQUIPO DE PRODUCCIÓN</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe assumenda fuga sint labore, obcaecati nam modi neque. Reprehenderit atque corrupti quos, beatae voluptatum eius aspernatur in hic rerum non necessitatibus.
         </p>
+
+        -->
+        
       </div>
       <div class="modal-footer">
         
@@ -253,10 +259,10 @@
 
 
 
-<!--MODAL DATOS GENERALES -->
+<!--MODAL FORMULARIO OFFICE -->
 
 
-<div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="solicitaroffice" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -276,6 +282,29 @@
   </div>
 </div>
 
+
+<!--MODAL TUTORIAL OFFICE -->
+
+
+<div class="modal fade" id="activaroffice" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tutorial: Activar cuenta de Office</h5>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body justify-content-center align-items-center">
+
+        <p><iframe width="100%" height="415" src="https://www.youtube.com/embed/rkfLMNYKLlg?si=UEVkErQH3E9ehviM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+      
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
