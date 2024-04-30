@@ -36,8 +36,18 @@ body  {
   .encabezado-recorrido {
     padding-top: 5em; 
     z-index: 2; 
-    padding-left: 50px; 
+    padding-left: 100px; 
     padding-right: 50px;
+  }
+  .titulo {
+    font-size:  clamp(3.3rem, 3rem + 1.5vw, 5rem);
+    transition: 0.4s;
+    z-index: 5;
+  }
+  .subtitulo {
+    font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
+    transition: 0.4s;
+    z-index: 5;
   }
 }
 
@@ -47,6 +57,16 @@ body  {
     padding-left: 20px; 
     z-index: 2; 
     padding-right: 30px;
+  }
+  .titulo {
+    font-size:  clamp(2.3rem, 2rem + 1.5vw, 4rem);
+    transition: 0.4s;
+    z-index: 5;
+  }
+  .subtitulo {
+    font-size: clamp(0.8rem, 0.9167rem + 0.2667vw, 1.25rem);
+    transition: 0.4s;
+    z-index: 5;
   }
 }
 
@@ -510,16 +530,7 @@ transition: 0.4s;
     filter: opacity(1);
     }
 
-.titulo {
-  font-size:  clamp(3.3rem, 3rem + 1.5vw, 5rem);
-  transition: 0.4s;
-  z-index: 5;
-}
-.subtitulo {
-  font-size: clamp(1rem, 0.9167rem + 0.2667vw, 1.25rem);
-  transition: 0.4s;
-  z-index: 5;
-}
+
 
 .boton-recorrido {
   background-color: #589CD6;
