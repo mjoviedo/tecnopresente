@@ -622,13 +622,13 @@ transition: 0.4s;
 }
 
 .boton-wsp {
-  filter: opacity(0.8);
   transition: 0.4s;
+  translate: 0% 0%;
 }
 
 .boton-wsp:hover {
-  transform: scale(1.1);
-  filter: opacity(1);
+  translate: 0% -10%;
+  filter: brightness(1.1);
 }
 
 .boton-azul2 {
