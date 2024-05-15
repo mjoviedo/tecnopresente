@@ -26,6 +26,28 @@ body  {
 }
 
 
+
+/*  CONTACTO  */
+
+
+.container-contacto {
+  box-sizing: border-box;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.label-contacto {
+	padding: 10px;
+	font-size: 18px;
+	color: #111;
+}
+
+
+/**/
+
+
 @media (max-width: 1000px) {
   .esconder-mobile {
     display: none;
@@ -457,6 +479,12 @@ transition: 0.4s;
 .card-img-top {
   width: 100%;
   height: 12vw;
+  object-fit: contain;
+}
+
+.card-img-top2 {
+  width: 100%;
+  height: 12vw;
   object-fit: cover;
 }
 
@@ -480,7 +508,7 @@ transition: 0.4s;
 
 .logo-menu {
   z-index: 2;
-  position:absolute ;
+  position:fixed ;
   top: 1em;
   right: 1em;
   height: 3.5em;
